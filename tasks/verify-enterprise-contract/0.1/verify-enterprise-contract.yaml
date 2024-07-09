@@ -196,6 +196,8 @@ spec:
         # files from an image, see https://github.com/enterprise-contract/ec-cli/issues/1109
         - name: EC_CACHE
           value: "false"
+        - name: GODEBUG
+          value: "http2debug=2"
       computeResources:
         requests:
           cpu: 250m

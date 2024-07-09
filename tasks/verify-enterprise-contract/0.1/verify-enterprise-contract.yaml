@@ -169,6 +169,7 @@ spec:
         - "--rekor-url"
         - "$(params.REKOR_HOST)"
         - "--ignore-rekor=$(params.IGNORE_REKOR)"
+        - "--timeout=1h0m0s"
         # NOTE: The syntax below is required to negate boolean parameters
         - "--info=$(params.INFO)"
         - "--strict=false"

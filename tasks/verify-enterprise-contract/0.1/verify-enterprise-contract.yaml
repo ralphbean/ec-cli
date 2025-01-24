@@ -260,9 +260,9 @@ spec:
       computeResources:
         requests:
           cpu: 250m
-          memory: 2Gi
+          memory: 12Gi
         limits:
-          memory: 2Gi
+          memory: 12Gi
       volumeMounts:
         - name: trusted-ca
           mountPath: /etc/pki/tls/certs/ca-custom-bundle.crt
